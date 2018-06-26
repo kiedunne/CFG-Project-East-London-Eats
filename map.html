@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Map</title>
+	<title>East London Eats</title>
+	<link href='./CSS/bootstrap.min.css' rel='stylesheet'>
 	<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	<script
+ 		src="http://code.jquery.com/jquery-3.3.1.min.js"
+  		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  		crossorigin="anonymous">
+  	</script>
+  	<script src="js/bootstrap.min.js"></script>
+
 </head>
-<body>
-	<header>
-		<h1 class="heading">The Unagai List</h1>
-	</header>
-	<nav class="nav_bar">
-		<ul>
-		  <li><a href="index.html">Home</a></li>
-		  <li><a href="about.html">About</a></li>
-		  <li><a href="map.html">Map</a></li>
-		  <li><a href="contact.html">Contact</a></li>
-		  <li><a href="Reviews.html">All Reviews</a></li>
-		</ul>
-	</nav>
-	<h1>A map with all our restaurants</h1>
+
+
+
+<div class="head_bar">
+  <div class="logo">
+      <h1 class="heading"><strong>EST<br>LDN<br>ETS</strong></h1>
+      <h2 class="kanji"><strong>東</strong></h2>
+    </div>
+
+  <div class="nav_bar">
+    <ul>
+      
+      <li><a href="index.html">ABOUT</a></li>
+      <li><a href="map.html">MAP</a></li>
+      <li><a href="gallery-test.html">REVIEWS</a></li>
+    </ul>
+  </div>
+  
+</div>
+
+<div class="toprow">
+		<h3 class= "titlereview">Find the best eats.</h3>
+</div>
+
+
 	<div id="map"></div>
     <script>
       function initMap() {
