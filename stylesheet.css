@@ -61,12 +61,13 @@ body {
 
 .head_bar {
 	display: flex;
-	align-items: inline;
+	align-items: center;
 	justify-content: space-between; 
-	background-image: url(./images/edo_back.jpg);
+	background-image: url(./images/edo_back_crop_2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-style: bold;
+	height: 260px;
 
 }
 
@@ -101,45 +102,54 @@ h2 {
 
 
 
-/* NAVIGATION BAR STYLE */
+/* NAVIGATION BAR */
 
 .nav_bar {
-	display: flex;
-	list-style-type: none;
-	overflow: hidden;
-	background-color: #333;
-	font-size: 15px;
-	font-family: helvetica;
-	font-style: bold;
+	
 	
 }
 
+ul {
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+
 li {
-	display: flex;
-	align-items: right;
-	justify-content: center;
+	font-weight: lighter;
+	font-size: 22px;
+	font-family: helvetica;
+	color: white;
+	padding: 20px;
 	text-align: right;
-	margin: 15px;
-	text-decoration: none;
-	font-style: bold;
 	
 }
 
 li a {
 	color: white;
-	text-align: right;
-	padding: 10px 16px;
 	text-decoration: none;
-	font-style: bold;
+	padding: 10px;
 }
 
 li a:hover {
-	background-color: #111;
+	padding: 20px;
+	border: 3px solid white;
+	color: white;
+	font-weight: lighter; 
+	text-decoration: none;
 }
 
 
 
+/* ABOUT PAGE */
 
+
+
+.CFGicon {
+	height: 50%;
+	width: 50%;
+
+}
 
 
 /* HOVER GALLERY TEXT */ 
@@ -180,10 +190,11 @@ li a:hover {
 
 .text {
   color: #2B2821;
-  font-size: 50px;
+  font-size: 40px;
   font-family: helvetica;
   font-style: bold;
   padding: 16px 32px;
+  border: 3px solid #2B2821;
 }
 
 
@@ -237,6 +248,10 @@ li a:hover {
 .toprow {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px 0 20px 0;
+	
 }
 
 		.titlereview  {
@@ -244,9 +259,14 @@ li a:hover {
 			font-weight: bold;
 			font-size: 100px;
 			color: #47443C;
-
+		
 		}
-	
+		
+		.starrating {
+			display: flex;
+			flex-direction:row;
+			
+		}
 
 .reviewcontainer {
 	display: flex;
@@ -287,7 +307,6 @@ li a:hover {
 		flex: 2;
 		justify-content: center;
 		height: 20%;
-		border: 1px solid #47443C;
 		padding:10px;
 
 	}
@@ -308,7 +327,6 @@ li a:hover {
 		flex: 2; 
 		justify-content: center;
 		height: 20%;
-		border: 1px solid #47443C;
 		padding:10px;
 	}
 
@@ -322,13 +340,15 @@ li a:hover {
 
 				}
 
-				.sidetext  {
-					font-family: helvetica;
-					color: #47443C;
-					font-size: 12px;
-					font-weight: lighter;
-					
-				}
+	.sidetext  {
+	font-family: helvetica;
+	color: #47443C;
+	font-size: 12px;
+	font-weight: lighter;
+						
+	}
+
+	
 
 				.tubeicon {
 					height: 12px;
@@ -338,6 +358,19 @@ li a:hover {
 				.hearticon {
 					height: 12px;
 					width: 12px;
+				}
+
+				.staricon {
+					height: 16px;
+					width: 16px;
+				}
+
+				.envelopeicon {
+					height: 16px;
+					width: 16px;
+				}
+
+
 				}
 #map {
         width: 100%;
