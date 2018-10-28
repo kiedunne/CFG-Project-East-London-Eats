@@ -1,0 +1,24 @@
+
+/* WELCOME PAGE */
+
+	html { 
+		  background: url(./images/edo_back_crop_2.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+
+
+.heading {
+	font-family: helvetica;
+	font-size: 50px;
+	color: black;
+	background: black;
+	mix-blend-mode: multiply;
+	margin: 15px;
+	font-weight: bold;
+
+}
+
+
